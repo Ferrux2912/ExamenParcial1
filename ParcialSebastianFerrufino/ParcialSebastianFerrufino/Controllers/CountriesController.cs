@@ -105,7 +105,7 @@ namespace ParcialSebastianFerrufino.Controllers
         }
 
         // DELETE: api/Countries/5
-        [Authorize]
+        //[Authorize]
         [ResponseType(typeof(Country))]
         public IHttpActionResult DeleteCountry(string id)
         {
